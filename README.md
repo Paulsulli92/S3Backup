@@ -1,7 +1,7 @@
 # S3Backup
 A simple script for backing up local files to an S3 bucket.  This handles files of any size through multi-part uploads.
 
-To use the script, set the S3 bucket name (not the ARN) and a Secret Key and Access Key for your account.
+To use the script, set the S3 bucket name (not the ARN) and a Secret Key and Access Key for your account.  You may also need to use pip3 to install boto3 if you do not already have it.
 
 Usage:
 ```
